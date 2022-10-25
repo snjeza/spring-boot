@@ -1,5 +1,8 @@
 image: gitpod/workspace-java-17
 
+tasks:
+  - init: ./gradlew publishToMavenLocal
+
 vscode:
   extensions:
     - vscjava.vscode-java-pack
